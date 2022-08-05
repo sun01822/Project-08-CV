@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('image/pexels-jess-bailey-designs-1119794.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.class1{
+    grid-area: class1;
+    padding: 1rem 1.6rem 0.1rem 1.6rem;
+    background-color: rgb(125, 123, 123);
+    color: #fff;
+}
+
+.class2{
+    grid-area: class2;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 1.6rem 0.1rem 1.6rem;
+    color: #000;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 'class1 class2 class2';
+    width: 55%;
+    margin: 3rem auto;
+    box-shadow: 2.2rem 2.2rem 1.5rem rgb(125, 123, 123);
+}
+
+.profile{
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    width: 60%;
+    padding: .8rem;
+}
+
+.information li{
+    display: flex;
+    justify-content: center; 
+    color:rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+
+.boxing{
+    text-transform: uppercase;
+    padding: .4rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.content h2{
+    border: 0.15rem solid #000;
+    text-align: center;
+}
+
+li img{
+   margin: 0.3rem 0; 
+}
+
+.information a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+
+.content p{
+    display: flex;
+    justify-content: center;
+}
+
+.headline{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.subheadline{
+    font-size: .8rem;
+}
+
+.headline2{
+    margin: 1.5rem 0;
+}
+
+.skills{
+    color:rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+
+.skills li{
+    display: flex;
+    justify-content: center;
+    padding: 0 0.5rem;
+}
+
+.name{
+    font-family: 'Square Peg', cursive;
+    font-size: 3.4rem;
+    text-align: center;
+    margin-top: 1.2rem;
+    font-weight: bold;
+}
+
+.about{
+    text-align: center;
+    margin: 0.75rem 0 1.5rem 0;
+    border: 3px solid #000;
+    padding: 0.5rem 0;
+}
+
+.top{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.3rem;
+}
+
+.h1{
+    border: 0.15rem solid rgb(125, 123, 123);
+    background-color: rgb(125, 123, 123);
+    margin-bottom: .8rem;
+}
+
+.details{
+    text-align: justify;
+    font-size: 1rem;
+    margin: .5rem 0 .8rem 0;
+}
+
+.judges ul{
+    list-style-type: disc;
+}
+
+.judges li{
+    margin: 0.2rem 2rem;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.judges a{
+    text-decoration: none;
+    color: #000;
+}
+
+.hobbies ul{
+    list-style-type: disc;
+}
+
+.hobbies li{
+    margin: 0.2rem 2rem;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.hobbies a{
+    text-decoration: none;
+    color: #000;
+}
+
+.class2 a:hover {
+    font-weight: bold;
+    color: rgb(253, 13, 13);
+}
+
+.class1 a:hover {
+    font-weight: bold;
+    color: rgb(64, 250, 2);
+}

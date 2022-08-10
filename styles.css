@@ -67,13 +67,7 @@ li img{
 .information a{
     text-decoration: none;
     color:rgb(255, 255, 255);
-    transition-property: color, font-size;
     font-size: 0.9rem;
-}
-
-.email a:hover{
-     font-size: 1rem;
-     color: color: rgb(253, 13, 13);
 }
 
 .content p{
@@ -173,7 +167,14 @@ li img{
     color: rgb(253, 13, 13);
 }
 
-.class1 a:hover {
+.class1 a{
+    font-weight: normal;
+    color: white;
+    transition-property: fort-weight, color;
+    transition-duration: 2s;
+}
+
+.class1 a:hover{
     font-weight: bold;
-    color: rgb(64, 250, 2);
+    color: rgb(64, 250, 2);   
 }

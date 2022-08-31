@@ -163,7 +163,6 @@ li img{
 }
 
 .class2 a:hover {
-    font-weight: bold;
     color: rgb(253, 13, 13);
 }
 
@@ -175,6 +174,5 @@ li img{
 }
 
 .class1 a:hover{
-    font-weight: bold;
     color: rgb(64, 250, 2);   
 }
